@@ -60,6 +60,6 @@ Hier wird nur ein Sub-Panel enthalten sein. Dieses Sub-Panel wird in Abhaengigke
 ---
 
 ## Diagramme
-Die Diagramme, welche die Software abbilden sind hier verlinkt.
-[Klassendiagramm](Documentation/Classes.md)  
+Die Diagramme, welche die Software abbilden sind hier verlinkt.  
+[Klassendiagramm](Documentation/Classes.md)    
 [Sequenzdiagramm](Documentation/Sequences.md)
