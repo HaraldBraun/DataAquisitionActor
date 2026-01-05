@@ -48,7 +48,7 @@ Das Start-VI (launcher) startet den Root-Actor (Controller). Dieser ruft das Mai
 Die Aufteilung des Main-UI wird im Borderlayout stattfinden. Dazu wird folgende Einteilung vorgenommen:  
 * **North**  
 Der Bereich wird unterteilt mit einem GridLayout aus 3 Spalten und zwei Zeilen (3 x 2).  
-Der Hauptbereich in der Mitte bekommt zentriert den Applikationsnamen. Die Bereiche links und rechts davon werden mit gleicher Groesse erstellt. Der Linke Bereich wird das [Icon](Resources/Images/ModulareSensorHexagon.png) der Applikation enthalten, im rechten Bereich wird das [Logo](Resources/Images/logo-hb-signal.svg) des Applikationsentwicklers angezeigt.  
+Der Hauptbereich in der Mitte bekommt zentriert den Applikationsnamen. Die Bereiche links und rechts davon werden mit gleicher Groesse erstellt. Der Linke Bereich wird das [Icon](Ressources/Images/ModulareSensorHexagon.png) der Applikation enthalten, im rechten Bereich wird das [Logo](Ressources/Images/logo-hb-signal.svg) des Applikationsentwicklers angezeigt.  
 In der zweiten Zeile werden die Buttons zur Auswahl des anzuzeigenden User Interfaces untergebracht inklusive Stop-Button.
 
 * **South**  
