@@ -4,6 +4,8 @@ Data aquisition from DAQmx devices with Actor Framework
 ## Ziel der Entwicklung
 Das Ziel der Entwicklung ist es, eine Applikation zu erstellen, die mit dem Actor Framework von National Instruments aufgebaut wird.
 
+---
+
 ## Rahmenbedingungen
 ### Geraete
 Es soll moeglich sein, Daten von Sensoren aufzunehmen, welche mit einem DAQmx-System von National Instruments verbunden sind.  
@@ -39,12 +41,14 @@ Die Software stellt die folgenden Untereinheiten zur Verfuegung:
 ## Beschreibung des Ablaufs in der Applikation
 Das Start-VI (launcher) startet den Root-Actor (Controller). Dieser ruft das Main User Interface auf. Dieses enthaelt als Hauptelement ein Sub-Panel in dem alle weiteren Sub-User Interfaces angezeigt werden.
 
+---
+
 ## Aufbau der User Interfaces
 ### Main User Interface
 Die Aufteilung des Main-UI wird im Borderlayout stattfinden. Dazu wird folgende Einteilung vorgenommen:  
 * **North**  
 Der Bereich wird unterteilt mit einem GridLayout aus 3 Spalten und zwei Zeilen (3 x 2).  
-Der Hauptbereich in der Mitte bekommt zentriert den Applikationsnamen. Die Bereiche links und rechts davon werden mit gleicher Groesse erstellt. Der Linke Bereich wird das Icon der Applikation enthalten, im rechten Bereich wird das Logo des Applikationsentwicklers angezeigt.  
+Der Hauptbereich in der Mitte bekommt zentriert den Applikationsnamen. Die Bereiche links und rechts davon werden mit gleicher Groesse erstellt. Der Linke Bereich wird das [Icon](Resources/Images/ModulareSensorHexagon.png) der Applikation enthalten, im rechten Bereich wird das [Logo](Resources/Images/logo-hb-signal.svg) des Applikationsentwicklers angezeigt.  
 In der zweiten Zeile werden die Buttons zur Auswahl des anzuzeigenden User Interfaces untergebracht inklusive Stop-Button.
 
 * **South**  
@@ -52,3 +56,10 @@ Am unteren Rand der Applikation wird es eine Statusanzeige (String-Field) geben.
 
 * **Center**  
 Hier wird nur ein Sub-Panel enthalten sein. Dieses Sub-Panel wird in Abhaengigkeit des aktuellen Zustandes entsprechend mit weiteren User Interfaces belegt. Zu Beginn wird das User Interface mit den Einstellungsoptionen angezeigt. Wenn die Einstellungen vorgenommen und verifiziert sind, wird das User Interface fuer die Datenanzeige angezeigt.
+
+---
+
+## Diagramme
+Die Diagramme, welche die Software abbilden sind hier verlinkt.
+[Klassendiagramm](Documentation/Classes.md)  
+[Sequenzdiagramm](Documentation/Sequences.md)
